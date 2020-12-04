@@ -28,11 +28,11 @@ FW_BASE		= firmware
 
 # Base directory for the compiler. Needs a / at the end; if not set it'll use the tools that are in
 # the PATH.
-XTENSA_TOOLS_ROOT ?= c:/Espressif/xtensa-lx106-elf/bin/
+XTENSA_TOOLS_ROOT ?= /build/xtensa-lx106-elf/bin/
 
 # base directory of the ESP8266 SDK package, absolute
-SDK_BASE	?= c:/Espressif/ESP8266_SDK
-SDK_TOOLS	?= c:/Espressif/utils/ESP8266
+SDK_BASE	?= /build/ESP8266_SDK
+SDK_TOOLS	?= /build/utils/ESP8266
 
 # Opensdk patches stdint.h when compiled with an internal SDK. If you run into compile problems pertaining to
 # redefinition of int types, try setting this to 'yes'.

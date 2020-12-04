@@ -23,7 +23,7 @@ cd esp_mqtt
 #clean
 mingw32-make clean
 #make
-mingw32-make SDK_BASE="c:/Espressif/ESP8266_SDK" FLAVOR="release" all
+mingw32-make SDK_BASE="/build/Espressif/ESP8266_SDK" FLAVOR="release" all
 #flash
 mingw32-make ESPPORT="COM1" flash
 ```

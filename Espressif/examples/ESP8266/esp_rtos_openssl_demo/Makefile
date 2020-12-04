@@ -2,7 +2,7 @@
 include	../settings.mk
 
 # Individual project settings (Optional)
-SDK_BASE	= c:/Espressif/ESP8266_RTOS_SDK
+SDK_BASE	= /build/Espressif/ESP8266_RTOS_SDK
 
 # Boot mode:
 # Valid values are  none, old, new

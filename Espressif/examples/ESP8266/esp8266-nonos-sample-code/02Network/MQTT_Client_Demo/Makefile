@@ -1,4 +1,4 @@
-EXAMPLES_BASE	?= c:/Espressif/examples/ESP8266
+EXAMPLES_BASE	?= /build/examples/ESP8266
 
 # Main settings includes
 include	$(EXAMPLES_BASE)/settings.mk

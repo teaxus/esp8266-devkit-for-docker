@@ -8,14 +8,14 @@ FW_BASE		= firmware
 TARGET		= app
 
 # Base directory for the compiler
-XTENSA_TOOLS_ROOT ?= c:/Espressif/xtensa-lx106-elf/bin
+XTENSA_TOOLS_ROOT ?= /opt/xtensa-lx106-elf/bin
 
 # base directory of the ESP8266 SDK package, absolute
-SDK_BASE	?= c:/Espressif/ESP8266_SDK
-SDK_TOOLS	?= c:/Espressif/utils/ESP8266
+SDK_BASE	?= /build/Espressif/ESP8266_SDK
+SDK_TOOLS	?= /build/Espressif/utils/ESP8266
 
 # Extra libs, include and ld file
-EXTRA_BASE	?= c:/Espressif/extra
+EXTRA_BASE	?= /build/Espressif/extra
 
 # esptool path and port
 ESPTOOL		?= $(SDK_TOOLS)/esptool.exe

@@ -147,8 +147,8 @@ def gen_appbin():
     BIN_MAGIC_IROM   = 0xEA
     data_str = ''
     sum_size = 0
-
-    cmd = 'C:\\Espressif\\xtensa-lx106-elf\\bin\\xtensa-lx106-elf-nm -g ' + elf_file + ' > eagle.app.sym'
+    print("if error place change path")
+    cmd = 'xtensa-lx106-elf-nm -g ' + elf_file + ' > eagle.app.sym'
 
     os.system(cmd)
 

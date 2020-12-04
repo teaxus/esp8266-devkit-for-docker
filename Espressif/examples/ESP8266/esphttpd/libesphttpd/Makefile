@@ -25,14 +25,14 @@ BUILD_BASE	= build
 
 # Base directory for the compiler. Needs a / at the end; if not set it'll use the tools that are in
 # the PATH.
-XTENSA_TOOLS_ROOT ?= c:/Espressif/xtensa-lx106-elf/bin/
+XTENSA_TOOLS_ROOT ?= /build/xtensa-lx106-elf/bin/
 
 # Only used for the non-FreeRTOS build
-SDK_BASE	?= c:/Espressif/ESP8266_SDK
+SDK_BASE	?= /build/ESP8266_SDK
 
 # Base directory of the ESP8266 FreeRTOS SDK package, absolute
 # Only used for the FreeRTOS build
-SDK_PATH	?= c:/Espressif/ESP8266_RTOS_SDK
+SDK_PATH	?= /build/Espressif/ESP8266_RTOS_SDK
 
 # name for the target project
 LIB		= libesphttpd.a
